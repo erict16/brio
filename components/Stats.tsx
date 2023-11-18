@@ -33,7 +33,7 @@ export function GitHub() {
 
 export default function Stats() {
   const { theme } = useTheme();
-  const username = "brianruizy";
+  const username = "erict16";
 
   const { data: githubData, error: githubDataError } = useSWR(
     `/api/github?username=${username}`,
@@ -58,7 +58,7 @@ export default function Stats() {
       <li className="transition-opacity">
         <Link
           className="flex gap-3 items-center no-underline"
-          href={"https://github.com/brianruizy"}
+          href={"https://github.com/erict16"}
         >
           <FaGithub className="text-xl" />
           <div>
